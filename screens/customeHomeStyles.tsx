@@ -6,7 +6,8 @@ export const customeHomeStyles = StyleSheet.create({
   },
   home: {
     backgroundColor: '#E5E5E5',
-    height: '100%'
+    height: '100%',
+    marginTop: 170,
   },
   option: {
     alignItems: 'center'

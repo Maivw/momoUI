@@ -7,6 +7,7 @@ import {styles} from "./BottomTabstyles";
 import Colors from '../constants/Colors';
 import useColorScheme from '../hooks/useColorScheme';
 import HomeScreen from '../screens/HomeScreen';
+import ChuyenTienScreen from "../screens/ChuyenTien";
 import TabTwoScreen from '../screens/TabTwoScreen';
 import { BottomTabParamList, TabOneParamList, TabTwoParamList } from '../types';
 
@@ -34,7 +35,7 @@ export default function BottomTabNavigator() {
       />
       <BottomTab.Screen
         name="Analysis"
-        component={HomeScreen}
+        component={ChuyenTienScreen}
         options={{
           tabBarLabel: 'Analysis',
           tabBarIcon: ({ color }) => <Foundation name="graph-pie" size={24} color={color} />,

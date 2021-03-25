@@ -15,7 +15,7 @@ export default function HomeHeader() {
           <View style={styles.lineThree}/>
         </View>
         <View style={styles.topMiddle}>
-          <Image style={styles.image}source={{ uri: 'https://pyxis.nymag.com/v1/imgs/0fd/e01/0ce0d5381e9930e3b567edfde650f7f69f-taylor-swift.rsquare.w1200.jpg' }}/>
+          <Image style={styles.image} source={{ uri: 'https://pyxis.nymag.com/v1/imgs/0fd/e01/0ce0d5381e9930e3b567edfde650f7f69f-taylor-swift.rsquare.w1200.jpg' }}/>
           <Text style={[styles.smallerLetter, {fontFamily: 'Roboto_700Bold'}]}>0908076705</Text>
         </View>
         <View style={styles.icons}>
