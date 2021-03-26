@@ -10,6 +10,7 @@ import HomeScreen from '../screens/HomeScreen';
 import ChuyenTienScreen from "../screens/ChuyenTien";
 import TabTwoScreen from '../screens/TabTwoScreen';
 import { BottomTabParamList, TabOneParamList, TabTwoParamList } from '../types';
+import ConfirmScreen from "../screens/Confirm";
 
 const BottomTab = createBottomTabNavigator<BottomTabParamList>();
 
@@ -43,7 +44,7 @@ export default function BottomTabNavigator() {
       />
       <BottomTab.Screen
         name="Utility"
-        component={HomeScreen}
+        component={ConfirmScreen}
         options={{
           tabBarLabel: 'Utility',
           tabBarIcon: ({ color }) => <Octicons name="tools" size={24} color={color} /> ,
